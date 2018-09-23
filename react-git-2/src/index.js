@@ -1,8 +1,22 @@
+import './index.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+// llamada a los components que usaremos para nuestra app
+import App from './components/App';
+import Search from './components/Search';
+import User from './components/User';
+
+
+const routes = (
+    <Router history={browserHistory}>
+        <Route path="/" component={App}>
+            <IndexRoute component={Search}/>
+            <Route path="user/:username" component={User}/>
+        </Route>
+    </Router>
+);
+
+ReactDOM.render(routes, document.getElementById('root'));
