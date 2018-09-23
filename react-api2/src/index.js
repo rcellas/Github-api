@@ -4,7 +4,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Router, Route, IndexRoute, browserHistory } from 'react-router';
 
-// llamada a los components que usaremos para nuestra app
 import App from './components/App';
 import Search from './components/Search';
 import User from './components/User';
