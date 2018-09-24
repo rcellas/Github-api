@@ -38,7 +38,9 @@ class App extends Component {
     const {user} =this.state;
     return (
       <div className="App">
-      <i class="fa fa-github"></i> <i class="fab fa-react"></i>
+      {/* iconos + documentación a consultar */}
+      {/* puedes saber más sobre el uso de la api de github y react en estas páginas */}
+      <a href="https://developer.github.com/" target="_blank"><i class="fa fa-github"></i></a> <a href="https://reactjs.org/" target="_blank"><i class="fab fa-react"></i></a>
       <h1><b>GitHub Api</b> with <b>React.js</b></h1>
       {/* para poner el nombre del usuario */}
        <input type="test" placeholder="Nombre del usuario" ref="name"/>
