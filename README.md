@@ -4,8 +4,8 @@ Using the github api with differents programs for seen  the differences betwwen 
 
 The programs that are used here are:
 
--Jquery
+- Jquery
 
--Vuejs
+- Vuejs
 
--React js
+- React js
