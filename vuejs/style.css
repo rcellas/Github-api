@@ -1,0 +1,65 @@
+body{
+    margin: 20px;
+    padding: 0;
+    background-color: #324B5F;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav a.logo{
+    font-size: 1.5rem;
+}
+
+nav ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 7px;
+}
+
+nav ul li a:hover{
+    border-bottom: 1px solid #000;
+    opacity: 1;
+}
+
+.fa-github:before {
+    font-size: 100px;
+    color:#00B882;
+    margin: 25px;
+    padding: 20px;
+}
+
+.fa-vuejs:before{
+    font-size: 100px;
+    color: #00B882;
+}
+
+h2{
+    color:#00B882;
+    font-weight: 300;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #00B882;
+    color:#00B882;
+}
+
+li{
+    color: white;
+}
